@@ -1,0 +1,199 @@
+.st-ground{
+    background: white;
+}
+.st-font{
+    font-family: Calibri,"Fira Code";
+    font-size:20px;
+}
+
+.active a {
+    color:#353f59 !important;
+    font-weight:bold;
+    border-bottom:2px solid #353f59;
+}
+
+.ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block; }
+.ftco-footer-social li a {
+    height: 40px;
+    width: 40px;
+    display: block;
+    float: left;
+    background: #494e50;
+    border-radius: 50%;
+    position: relative; }
+.ftco-footer-social li a span {
+    position: absolute;
+    font-size: 14px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+.ftco-footer-social li a:hover {
+    color: #fff;
+    background:#90c03e;
+    animation:zoom; }
+
+.social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block; }
+.social li a {
+    height: 25px;
+    width: 25px;
+    display: block;
+    float: left;
+    background: #dbeefe;
+    border-radius: 50%;
+    position: relative; }
+.social li a span {
+    position: absolute;
+    font-size:12px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+.social li a:hover {
+    color: #fff;
+    background:#90c03e;
+    animation:zoom; }
+
+.reseaux {
+    background:#161b23;
+}
+.copyright{
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding: 20px;
+    bottom:0px;
+    margin-bottom: -22px;
+    color: 	white;
+    height: 60px;
+}
+
+.car {
+    margin-top:100px;
+    text-align:center;
+    font-size:78px;
+    color:#fff;
+    font-weight:bold;
+    font-family:Tunga;
+}
+
+.rgba-white-slight,
+.rgba-white-slight:after {
+    background-color: rgba(255, 255, 255, 0.1); }
+
+.rgba-white-light,
+.rgba-white-light:after {
+    background-color: rgba(255, 255, 255, 0.3); }
+
+.rgba-white-strong,
+.rgba-white-strong:after {
+    background-color: rgba(255, 255, 255, 0.7); }
+
+.rgba-green-slight,
+.rgba-green-slight:after {
+    background-color: rgba(76, 175, 80, 0.1); }
+
+.rgba-green-light,
+.rgba-green-light:after {
+    background-color: rgba(76, 175, 80, 0.3); }
+
+.rgba-green-strong,
+.rgba-green-strong:after {
+    background-color: rgba(76, 175, 80, 0.7); }
+
+.h1-responsive {
+    font-size: 150%; }
+
+.h2-responsive {
+    font-size: 145%; }
+
+.h3-responsive {
+    font-size: 135%; }
+
+.h4-responsive {
+    font-size: 135%; }
+
+.h5-responsive {
+    font-size: 135%; }
+
+@media (min-width: 256px) {
+    .h1-responsive {
+        font-size: 200%; }
+    .h2-responsive {
+        font-size: 140%; }
+    .h3-responsive {
+        font-size: 125%; }
+    .h4-responsive {
+        font-size: 125%; }
+    .h5-responsive {
+        font-size: 125%; } }
+
+@media (min-width: 360px) {
+    .h1-responsive {
+        font-size: 200%; }
+    .h2-responsive {
+        font-size: 140%; }
+    .h3-responsive {
+        font-size: 125%; }
+    .h4-responsive {
+        font-size: 125%; }
+    .h5-responsive {
+        font-size: 125%; } }
+
+@media (min-width: 576px) {
+    .h1-responsive {
+        font-size: 210%; }
+    .h2-responsive {
+        font-size: 140%; }
+    .h3-responsive {
+        font-size: 125%; }
+    .h4-responsive {
+        font-size: 125%; }
+    .h5-responsive {
+        font-size: 125%; } }
+
+@media (min-width: 768px) {
+    .h1-responsive {
+        font-size: 250%; }
+    .h2-responsive {
+        font-size: 170%; }
+    .h3-responsive {
+        font-size: 140%; }
+    .h4-responsive {
+        font-size: 125%; }
+    .h5-responsive {
+        font-size: 125%; } }
+
+@media (min-width: 992px) {
+    .h1-responsive {
+        font-size: 300%; }
+    .h2-responsive {
+        font-size: 170%; }
+    .h3-responsive {
+        font-size: 140%; }
+    .h4-responsive {
+        font-size: 125%; }
+    .h5-responsive {
+        font-size: 125%; } }
+
+@media (min-width: 1200px) {
+    .h1-responsive {
+        font-size: 350%; }
+    .h2-responsive {
+        font-size: 200%; }
+    .h3-responsive {
+        font-size: 170%; }
+    .h4-responsive {
+        font-size: 140%; }
+    .h5-responsive {
+        font-size: 125%; } }

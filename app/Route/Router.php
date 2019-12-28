@@ -7,8 +7,9 @@ namespace app\Route;
 class Router
 {
     public  function render(){
+        ob_start();
         if ($_SERVER['REQUEST_URI'] === '/connexion/') {
-            $content = require  VIEWS .'home' . '.php';
+            require  VIEWS .'home' . '.php';
         } elseif ($_SERVER['REQUEST_URI'] === '/connexion/contact') {
             echo 'contact';
         } elseif ($_SERVER['REQUEST_URI'] === '/connexion/discussion') {
