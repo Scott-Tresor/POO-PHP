@@ -2,25 +2,25 @@
 
 namespace App\Controllers;
 
-class PostController
+class PostController extends Controller
 {
     public  function  index()
     {
-        echo 'salut';
+        $this->view('home');
     }
 
     public function discussion()
     {
-        echo 'discussion';
+        $this->view('discussion');
     }
 
     public function  team()
     {
-        echo 'team';
+        $this->view('team');
     }
 
     public function contact()
     {
-        echo 'contact';
+        $this->view('contact');
     }
 }

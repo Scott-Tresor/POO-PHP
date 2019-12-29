@@ -23,10 +23,7 @@ class Router
             foreach ($routes as $path => $action){
                 if ($this->url === $path){
                     $element = explode('@', $action);
-                    $className = 'App\Controllers\\' . $element[0];
-                    $method = $element[1];
-                    $controller = new $className();
-                    $controller->$method();
+                    $this->callController($element);
                 }
             }
             header('HTTP/1.0 404 Not found');
@@ -36,6 +33,8 @@ class Router
     private  function callController($element)
     {
         $className = 'App\Controllers\\' . $element[0];
-        var_dump($className);
+        $method = $element[1];
+        $controller = new $className();
+        $controller->$method();
     }
 }
