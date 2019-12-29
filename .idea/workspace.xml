@@ -4,7 +4,12 @@
     <list default="true" id="c7bc4d46-3bb3-4f90-921b-e63fba7eb9fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Route/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Route/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controller/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controller/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +113,7 @@
       <workItem from="1577555955786" duration="2006000" />
       <workItem from="1577558935377" duration="8438000" />
       <workItem from="1577605598175" duration="5369000" />
-      <workItem from="1577614490577" duration="6560000" />
+      <workItem from="1577614490577" duration="11238000" />
     </task>
     <task id="LOCAL-00001" summary="message de communication systeme">
       <created>1577557174559</created>

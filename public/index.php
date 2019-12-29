@@ -3,10 +3,9 @@
 define('VIEWS', dirname(__DIR__) . DIRECTORY_SEPARATOR . 'views/');
 
 require ('../app/Route/Router.php');
-use app\Route\Router;
 
-$router = new Router();
-$router->get('/connexion/', 'Controller@home');
+$router = new app\Route\Router($_SERVER['REQUEST_URI']);
+$router->get('/connexion/', 'controller@home');
 $router->match();
 
 

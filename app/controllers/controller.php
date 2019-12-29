@@ -1,12 +1,12 @@
 <?php
 
-namespace App\controller;
+namespace App\controllers;
 
 class controller
 {
     public  function  index()
     {
-
+        echo 'salut';
     }
 
     public function discussion()

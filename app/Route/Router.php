@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\Route;
-
 
 class Router
 {
@@ -26,22 +24,21 @@ class Router
 
     public function  match()
     {
-
+        foreach ($this->routes as $key => $routes){
+            foreach ($routes as $path => $action){
+                if ($this->url === $path){
+                    $element = explode('@', $action);
+                    $this->callController($element);
+                }
+            }
+            header('HTTP/1.0 404 Not found');
+        }
     }
-//    public  function render(){
-//        ob_start();
-//        if ($_SERVER['REQUEST_URI'] === '/connexion/') {
-//            require  VIEWS .'home' . '.php';
-//        } elseif ($_SERVER['REQUEST_URI'] === '/connexion/contact') {
-//            require VIEWS . 'contact' . '.php';
-//        } elseif ($_SERVER['REQUEST_URI'] === '/connexion/discussion') {
-//            require  VIEWS . 'discussion' . '.php';
-//        } elseif ($_SERVER['REQUEST_URI'] === '/connexion/equipe') {
-//            require  VIEWS . 'team' . '.php';
-//        } else {
-//            header('HTTP/1.0 404 Not found');
-//        }
-//        $content = ob_get_clean();
-//        require (VIEWS . 'layouts/layout'. '.php');
-//    }
+
+    private  function callController($element)
+    {
+        $className = 'App\Controllers\\' . $element[0];
+        $method = $element[1];
+        $controller = new $className();
+    }
 }
