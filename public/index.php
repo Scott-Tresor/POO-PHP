@@ -10,7 +10,6 @@ use config\database;
 $router = new Router();
 $router->render();
 
-$pdo  = database::getPDO();
 
 
 
