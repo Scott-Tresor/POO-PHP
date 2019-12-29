@@ -1,6 +1,6 @@
 <?php
 
-namespace App\controllers;
+namespace App\Controllers;
 
 class PostController
 {
@@ -11,16 +11,16 @@ class PostController
 
     public function discussion()
     {
-
+        echo 'discussion';
     }
 
     public function  team()
     {
-
+        echo 'team';
     }
 
     public function contact()
     {
-
+        echo 'contact';
     }
 }

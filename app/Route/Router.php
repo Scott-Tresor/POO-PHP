@@ -1,6 +1,6 @@
 <?php
 
-namespace app\Route;
+namespace app\Router;
 
 class Router
 {
@@ -23,8 +23,10 @@ class Router
             foreach ($routes as $path => $action){
                 if ($this->url === $path){
                     $element = explode('@', $action);
-                    var_dump($element[1]);
-                    //$this->callController($element);
+                    $className = 'App\Controllers\\' . $element[0];
+                    $method = $element[1];
+                    $controller = new $className();
+                    $controller->$method();
                 }
             }
             header('HTTP/1.0 404 Not found');
