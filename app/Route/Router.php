@@ -17,18 +17,14 @@ class Router
         $this->routes['GET'][$path] = $action;
     }
 
-    public function post($path, $action)
-    {
-
-    }
-
     public function  match()
     {
         foreach ($this->routes as $key => $routes){
             foreach ($routes as $path => $action){
                 if ($this->url === $path){
                     $element = explode('@', $action);
-                    $this->callController($element);
+                    var_dump($element[1]);
+                    //$this->callController($element);
                 }
             }
             header('HTTP/1.0 404 Not found');
@@ -38,7 +34,6 @@ class Router
     private  function callController($element)
     {
         $className = 'App\Controllers\\' . $element[0];
-        $method = $element[1];
-        $controller = new $className();
+        var_dump($className);
     }
 }
