@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7bc4d46-3bb3-4f90-921b-e63fba7eb9fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/helpers/Helpers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/CONNEXION.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CONNEXION.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Route/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Route/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/helpers/Helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/Helpers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layouts/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/layout.php" afterDir="false" />
     </list>
@@ -86,10 +82,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CONNEXION\config" />
       <recent name="C:\xampp\htdocs\CONNEXION\views" />
       <recent name="C:\xampp\htdocs\CONNEXION\public" />
     </key>
@@ -123,7 +120,8 @@
       <workItem from="1577614490577" duration="12565000" />
       <workItem from="1577636655644" duration="10874000" />
       <workItem from="1577678064203" duration="465000" />
-      <workItem from="1578046541765" duration="3964000" />
+      <workItem from="1578046541765" duration="4518000" />
+      <workItem from="1578051138438" duration="4098000" />
     </task>
     <task id="LOCAL-00001" summary="message de communication systeme">
       <created>1577557174559</created>

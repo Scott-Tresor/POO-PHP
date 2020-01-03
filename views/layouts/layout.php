@@ -1,6 +1,5 @@
 <?php
 $helper = new App\Config\helpers\Helpers();
-
 ?>
 
 <!DOCTYPE html>
@@ -31,7 +30,7 @@ $helper = new App\Config\helpers\Helpers();
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
         <a class="navbar-brand" href="/connexion/">
-            Exercice PHP natif
+            Programmer en php
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,10 +39,7 @@ $helper = new App\Config\helpers\Helpers();
             <ul class="nav navbar-nav ml-auto">
                 <?php echo $helper->nav('/connexion/', 'Home', '','nav-link'); ?>
                 <li class="nav-item <?php if ($nav === "Discussion"): ?>active <?php endif; ?>">
-                    <a class="nav-link" href="/connexion/discussion">Discussion</a>
-                </li>
-                <li class="nav-item <?php if ($nav === "Team"): ?>active <?php endif; ?>">
-                    <a class="nav-link" href="/connexion/equipe">Notre equipe</a>
+                    <a class="nav-link" href="/connexion/discussion">Formations</a>
                 </li>
                 <li class="nav-item <?php if ($nav === "contact"): ?>active <?php endif; ?>">
                     <a class="nav-link "href="/connexion/contact">Contact</a>
