@@ -1,5 +1,10 @@
+<?php
+$helper = new App\Config\helpers\Helpers();
+
+?>
+
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <!-- balises meta -->
     <meta charset="utf-8">
@@ -33,9 +38,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item <?php if ($nav === "Home"): ?>active <?php endif; ?>">
-                    <a class="nav-link" href="/connexion/">Home </a>
-                </li>
+                <?php echo $helper->nav('/connexion/', 'Home', '','nav-link'); ?>
                 <li class="nav-item <?php if ($nav === "Discussion"): ?>active <?php endif; ?>">
                     <a class="nav-link" href="/connexion/discussion">Discussion</a>
                 </li>

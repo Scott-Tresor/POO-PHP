@@ -26,7 +26,6 @@ class Router
                     $this->callController($element);
                 }
             }
-            header('HTTP/1.0 404 Not found');
         }
     }
 

@@ -1,6 +1,5 @@
 <?php
     $title = 'Accueil';
-    $nav = "Home";
 ?>
 <div class="hero-wrap">
     <div class="jumbotron">
