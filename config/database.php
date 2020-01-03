@@ -4,7 +4,22 @@ namespace config;
 
 class database
 {
+    private $host    = 'localhost';
+    private $name    = '';
+    private $user    = 'root';
+    private $pass    = '';
     private static $PDOInstance;
+
+    public function __construct($host, $name, $user, $pass)
+    {
+        if (!$host !== null){
+            $this->host = $host;
+            $this->name = $name;
+            $this->user = $user;
+            $this->pass = $pass;
+        }
+    }
+
     public  static  function  getPDO()
     {
         if (self::$PDOInstance === null)

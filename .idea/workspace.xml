@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7bc4d46-3bb3-4f90-921b-e63fba7eb9fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/bootstrap-datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/undraw_work_time_lhoj.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CONNEXION.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CONNEXION.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Route/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Route/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/layout.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +74,11 @@
       </set>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1VcS6PKVMkRzC3ump09zCdvHnuW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -110,7 +125,9 @@
       <workItem from="1577558935377" duration="8438000" />
       <workItem from="1577605598175" duration="5369000" />
       <workItem from="1577614490577" duration="12565000" />
-      <workItem from="1577636655644" duration="6203000" />
+      <workItem from="1577636655644" duration="10874000" />
+      <workItem from="1577678064203" duration="465000" />
+      <workItem from="1578046541765" duration="118000" />
     </task>
     <task id="LOCAL-00001" summary="message de communication systeme">
       <created>1577557174559</created>

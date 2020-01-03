@@ -10,13 +10,23 @@
     <link rel="stylesheet" href="/connexion/public/assets/css/bootstrap.min.css">
     <link href="/connexion/public/assets/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/connexion/public/assets/css/index.css">
+    <link rel="stylesheet" href="/connexion/public/assets/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="/connexion/public/assets/css/animate.css">
+    <link rel="stylesheet" href="/connexion/public/assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/connexion/public/assets/css/magnific-popup.css">
 
 </head>
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <a class="navbar-brand" href="/connexion/">Navbar</a>
+        <a class="navbar-brand" href="/connexion/">
+            <?php if(isset($title)): ?>
+                <?= $title ?>
+            <?php else: ?>
+                Exercice
+            <?endif;?>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,10 +48,7 @@
         </div>
     </div>
 </nav>
-
-    <div class="container">
-        <?= $content; ?>
-    </div>
+    <?= $content; ?>
 
 <footer class="nav navbar-nav ml-1">
     <div class="container mt-3 ">
