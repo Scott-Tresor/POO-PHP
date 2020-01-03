@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7bc4d46-3bb3-4f90-921b-e63fba7eb9fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/aos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/bootstrap-datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icomoon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/undraw_work_time_lhoj.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CONNEXION.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CONNEXION.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/discussion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layouts/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/team.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +119,7 @@
       <workItem from="1577614490577" duration="12565000" />
       <workItem from="1577636655644" duration="10874000" />
       <workItem from="1577678064203" duration="465000" />
-      <workItem from="1578046541765" duration="118000" />
+      <workItem from="1578046541765" duration="982000" />
     </task>
     <task id="LOCAL-00001" summary="message de communication systeme">
       <created>1577557174559</created>

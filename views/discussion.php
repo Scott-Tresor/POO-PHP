@@ -1,3 +1,4 @@
 <?php
-$title = 'Discussion';
+    $title = 'Discussion';
+    $nav = "Discussion";
 ?>

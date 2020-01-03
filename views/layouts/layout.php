@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="développeurs de marcon.">
-    <title>Connexion - <?= $title ?> </title>
+    <title>Exercice - <?php if(isset($title)): ?>
+            <?= $title ?>
+        <?php else: ?>
+            Exerice
+        <?php endif ?>
+    </title>
     <link rel="stylesheet" href="/connexion/public/assets/css/bootstrap.min.css">
     <link href="/connexion/public/assets/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/connexion/public/assets/css/index.css">
@@ -21,27 +26,23 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
         <a class="navbar-brand" href="/connexion/">
-            <?php if(isset($title)): ?>
-                <?= $title ?>
-            <?php else: ?>
-                Exercice
-            <?endif;?>
+            Exercice PHP natif
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item <?php if ($nav === "Home"): ?>active <?php endif; ?>">
                     <a class="nav-link" href="/connexion/">Home </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item <?php if ($nav === "Discussion"): ?>active <?php endif; ?>">
                     <a class="nav-link" href="/connexion/discussion">Discussion</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item <?php if ($nav === "Team"): ?>active <?php endif; ?>">
                     <a class="nav-link" href="/connexion/equipe">Notre equipe</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item <?php if ($nav === "contact"): ?>active <?php endif; ?>">
                     <a class="nav-link "href="/connexion/contact">Contact</a>
                 </li>
             </ul>
@@ -56,7 +57,7 @@
             <div class="col-lg-3 col-md-3 col-sm-4 col-6 mt-5">
                 <a href="">
                     <img src="" class="img-fluid" style="width:100px;" alt=""></a>
-                <p class="small">&copy; Connexion <?php echo date('Y') ?>.</p>
+                <p class="small">&copy; Connexion .</p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-6 mt-4 ml-lg-auto">
                 <ul class="nav navbar-nav ml-1 mt-5">
